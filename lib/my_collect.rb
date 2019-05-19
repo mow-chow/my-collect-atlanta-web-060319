@@ -1,8 +1,8 @@
 
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-array = []
-def my_collect(collection) do |lang|  lang.upcase
-  while i == 0
+def my_collect(collection) 
+  i = 0
+  array = []
+  while i < collection.length
     block_given?
     array << yield(collection[i])
     i += 1
